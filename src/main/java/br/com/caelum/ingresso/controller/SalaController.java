@@ -90,7 +90,6 @@ public class SalaController {
         return modelAndView;
     }
 
-
     @DeleteMapping("/admin/sala/{id}")
     @ResponseBody
     @Transactional
